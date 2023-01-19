@@ -1,0 +1,144 @@
+    #title {
+        background-color: rgb(237, 67, 96);
+        color: white;
+    }
+    
+    .container-fluid {
+        padding: 3% 15% 7%;
+    }
+    
+    body {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: large;
+        text-align: center;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5;
+        font-size: 3rem;
+    }
+    /* navigation-bar */
+    
+    .navbar {
+        padding-bottom: 4.5rem;
+    }
+    
+    .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    
+    .nav-item {
+        padding: 0 18px;
+    }
+    
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    /* download btn */
+    
+    .download-button {
+        margin: 5% 3% 5% 0;
+    }
+    
+    .dog-img {
+        width: 60%;
+        transform: rotate(25deg);
+        position: absolute;
+        right: 10%;
+    }
+    /* <!-- Features --> */
+    
+    #features {
+        padding: 70px 30px;
+        text-align: center;
+        background-color: white;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .img-icon {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+        color: rgb(239, 134, 134);
+    }
+    
+    .img-icon:hover {
+        color: rgb(233, 57, 118);
+    }
+    
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    /* Testimonial section */
+    
+    #testimonials {
+        text-align: center;
+        background-color: rgb(239, 134, 134);
+        color: white;
+    }
+    
+    .testimonials-img {
+        width: 15%;
+        border-radius: 100%;
+    }
+    /* <!-- Press --> */
+    
+    #press {
+        background-color: rgb(239, 134, 134);
+        padding-bottom: 3%;
+    }
+    
+    .press-logo {
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
+    
+    .carousel-items {
+        padding: 7% 15%;
+    }
+    /* pricing */
+    
+    .pricing-cloumn {
+        padding: 3% 2%;
+    }
+    
+    @media (max-width: 1028px) {
+        .dog-img {
+            position: static;
+            transform: rotate(0);
+        }
+        #title {
+            text-align: center;
+        }
+    }
+    /* <!-- Call to Action --> */
+    
+    #cta {
+        background-color: rgb(233, 57, 118);
+        padding: 7% 15%;
+        text-align: center;
+        color: white;
+    }
+    
+    .Install-button {
+        margin: 3% 5% 5% 0;
+    }
+    /* <!-- Footer --> */
+    
+    #footer {
+        color: rgb(62, 59, 59);
+        font-size: 1rem;
+        padding: 7% 15%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .footer-icon {
+        padding: 2%;
+        color: grey;
+    }
